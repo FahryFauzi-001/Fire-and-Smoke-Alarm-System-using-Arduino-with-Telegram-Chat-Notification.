@@ -1,0 +1,17 @@
+# Environment and local credential files
+.env
+.env.*
+!.env.example
+
+# Common Arduino credential/config headers
+secrets.h
+credentials.h
+wifi_config.h
+
+# Local editor and build artifacts
+.vscode/
+.idea/
+build/
+*.elf
+*.hex
+*.bin
